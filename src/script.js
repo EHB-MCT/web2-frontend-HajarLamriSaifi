@@ -1,5 +1,33 @@
+let list = [];
+let museum = [];
 
-//  kaart :  https://opendata.brussel.be/explore/embed/dataset/musea-in-brussel/map/?location=12,50.87997,4.36569
+
+window.onload = () => {
+    console.log('geladen')
+    getAllinfo();
+    // getData();
+
+
+}
+
+// async function getData(){
+//     await fetch('https://opendata.brussels.be/api/records/1.0/search/?dataset=museums-in-brussels&q=')
+//     .then (resp => resp.json())
+//     .then(data => {
+//         list = data.results;
+//         // een loop
+//         list.forEach(element => {
+//             fetch(element.url)
+//             .then(resp => resp.json())
+//             .then(data =>{
+//                 museum.push(data);
+//             })
+            
+//         });
+//     })
+// }
+
+
 
 async function getAllinfo() {
     let response = await fetch('https://opendata.brussels.be/api/records/1.0/search/?dataset=museums-in-brussels&q=')
@@ -10,6 +38,7 @@ async function getAllinfo() {
     let info = data.records[0]
     
     content.innerHTML += `
+    
     <h1> ${info.fields.naam_van_het_museum}</h1>
     <p> ${info.fields.adres}</p>
     <p> ${info.fields.adresse}</p>
@@ -19,7 +48,9 @@ async function getAllinfo() {
     })
     }
     
-    getAllinfo();
+   
+
+
 
 
     
