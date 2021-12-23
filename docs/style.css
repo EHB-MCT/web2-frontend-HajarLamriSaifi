@@ -6,7 +6,7 @@
 
 body {
     background-color: #271502;
-    
+
 }
 
 /* navigatie */
@@ -68,27 +68,7 @@ h4 {
     font-size: 200%;
 }
 
-.museumsimg {
-    margin-left: 5;
-}
 
-.museumsimg img {
-    margin: 1%;
-}
-
-.homepages {
-    display: flex;
-    display: flex;
-    justify-content: space-around;
-}
-
-.museumsimg {
-    margin-left: 10%;
-}
-
-.museumsimg p {
-    margin: 2.5%;
-}
 
 .second {
     margin-right: 10%;
@@ -153,4 +133,25 @@ h4 {
 iframe {
     margin-left: 15%;
     margin-top: 5%;
+}
+
+.museumsimg {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.museumOne {
+    width: 50%;
+    align-items: center;
+}
+
+
+
+#museum-data {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5em;
+    flex-wrap: wrap;
 }
