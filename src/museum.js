@@ -24,7 +24,7 @@ window.onload =() => {
                 <div class="museumsim">
   
                 <a href="./items.html"><img src="./images/jong publiek.jpeg" alt=""></a>
-                <h2> ${data1.fields.naam_van_het_museum}</h2>
+                <h2>${data1.fields.naam_van_het_museum}</h2>
                
                 </div>
                 `;
@@ -34,6 +34,3 @@ window.onload =() => {
         })
     }
 }
-
-
-
