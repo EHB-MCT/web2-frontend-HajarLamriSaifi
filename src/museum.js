@@ -31,7 +31,7 @@ window.onload =() => {
   
                 <a href="./items.html"><img src="/docs/images/${data1.fields.naam_van_het_museum}.jpeg" alt="${data1.fields.naam_van_het_museum}" width="500px" height="400px"></a>
                 <h2>${data1.fields.naam_van_het_museum}</h2>
-                <btn href="#" id="${data1.recordid}" class="btn">add</btn>
+                <button href="#" id="${data1.recordid}" class="btn">save item</button>
                
                 </div>
                 `;
