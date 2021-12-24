@@ -160,13 +160,4 @@ iframe {
     font-size: 18px;
 }
 
-#museum {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 10em;
-    flex-wrap: wrap;
-}
-
-#museum h2 {
-    font-size: 18px;
-}
+#museum-data a {}
