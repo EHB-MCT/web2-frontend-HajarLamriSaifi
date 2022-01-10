@@ -18,8 +18,8 @@ https://www.youtube.com/watch?v=gCjrEGAZCkw&t=136s
 fetch request for object to array 
 https://stackoverflow.com/questions/64611880/how-to-fetch-an-array-object-from-api-json-file
 
-
-
+github link 
+https://ehb-mct.github.io/web2-frontend-HajarLamriSaifi/
 
 XD link wireframe
 https://xd.adobe.com/view/139562c6-7c4a-4b4e-bc9b-1576c743fa95-46c6/
