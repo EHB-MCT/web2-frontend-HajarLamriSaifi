@@ -1,16 +1,16 @@
 const path = require('path');
 
 module.exports = {
-    entry: [
-        './src/script.js',
-        './src/item.js',
-        './src/museum.js',
-        './src/saveditems.js',
+    entry: {
+        script:'./src/script.js',
+        item:'./src/item.js',
+        museum:'./src/museum.js',
+        saveditems:'./src/saveditems.js',
     
-    ],
+    },
 
     output: {
-        filename: 'webpack.js',
+        filename: '[name].js',
         path: path.resolve(__dirname, 'docs'),
     },
     mode: 'production',
