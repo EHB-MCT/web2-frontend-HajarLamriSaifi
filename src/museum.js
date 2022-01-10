@@ -36,13 +36,13 @@ window.onload =() => {
                 </div>
                 `;
                 console.log(data1.recordid);
-            })
+            })     // alle buttons elementen selecteren 
             document.querySelectorAll('.btn').forEach(item => {
                 item.addEventListener('click', event => {
                  console.log("clicked");
                     let id = event.target.id;
                     console.log("this is the", id);
-                    let additem = id;
+                    let additem = id; // in de array zoeken //
                    console.log("part 2", additem);
                     savedMuseum.push(additem);
                     // saveditems(additem);
